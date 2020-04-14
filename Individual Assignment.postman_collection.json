@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "ff5387a9-cd90-4b26-9b10-583ce707613d",
+		"name": "Individual Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Artist Recsys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:6000/ratings/top?userId=1662&count=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6000",
+					"path": [
+						"ratings",
+						"top"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "1662"
+						},
+						{
+							"key": "count",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
